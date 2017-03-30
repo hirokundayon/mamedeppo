@@ -2,22 +2,20 @@
 function newSession($browser) {
   <# WebDriverのdllを指定 #>
   if ($PSVersionTable.PSCompatibleVersions.Major.Contains(4)) {
-    Add-Type -Path "C:\Selenium\lib\selenium-dotnet\net40\WebDriver.dll";
+    Add-Type -Path "/path/to/selenium-dotnet\net40\WebDriver.dll";
   } else {
-    Add-Type -Path "C:\Selenium\lib\selenium-dotnet\net35\WebDriver.dll";
+    Add-Type -Path "/path/to/selenium-dotnet\net35\WebDriver.dll";
   }
 
   <# chromedriverのパス #>
-  $chromeDriverPath = "C:\Selenium\bin";
+  $chromeDriverPath = "/path";
 
   <# The Internet Explorer Driver Serverのパス #>
-  $ieDriverpath   = "C:\Selenium\bin";
+  $ieDriverpath   = "/path";
 
   <# Microsoft Edge Driverのパス #>
-  $edgeDriverPath = "C:\Selenium\bin"
+  $edgeDriverPath = "/path"
 
-  $url="http://localhost:4444/wd/hub/session"
-  $method="POST"
   switch ($browser)
   {
     <# Mozilla Firefox #>
