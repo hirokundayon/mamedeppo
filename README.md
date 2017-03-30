@@ -4,7 +4,7 @@
 </div>
 
 1. はじめに  
-   この資料は Selenium WebDriver を動かすPowerShellスクリプト edobarai.ps1 の動かし方を記述したものです。このPowerShellスクリプトは次の手順で、太宰府で開かれたOSC2011 Fukuokaのレポートを表示させます。  
+   この資料は Selenium WebDriver を動かすPowerShellスクリプト mamedeppo.ps1 の動かし方を記述したものです。このPowerShellスクリプトは次の手順で、太宰府で開かれたOSC2011 Fukuokaのレポートを表示させます。  
    1. Webブラウザを起動します。  
    2. Googleのページを表示します。  
    3. 「OSC Fukuoka 太宰府」をキーに検索します。  
