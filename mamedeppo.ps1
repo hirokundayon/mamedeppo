@@ -1,6 +1,8 @@
 <# PowerShell サブルーチン #>
 
-. ".\\mamedeppoSub.ps1"
+$scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
+
+. "$scriptPath\\mamedeppoSub.ps1"
 
 <# 引数で起動するWebブラウザを指定 #>
 $browser = $Args -join " ";
