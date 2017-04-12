@@ -4,8 +4,8 @@
 </div>
 
 1. はじめに  
-   この資料は Selenium WebDriver を動かすPowerShellスクリプト mamedeppo.ps1 の動かし方を記述したものです。このPowerShellスクリプトは次の手順で、太宰府で開かれたOSC2011 Fukuokaのレポートを表示させます。  
-   1. Webブラウザを起動します。  
+   この資料は Selenium WebDriver を動かすPowerShellスクリプト mamedeppo.ps1 の動かし方を記述したものです。このPowerShellスクリプトは次の手順で、太宰府で開かれたOSC2011 Fukuokaのレポートを表示させます。なお、このスクリプトはギャラクシー賞を受賞した時代劇の名作必殺からくり人 第12話「鳩に豆鉄砲をどうぞ」に因んで名づけました。   
+   1. Webブラウザを起動します。  
    2. Googleのページを表示します。  
    3. 「OSC Fukuoka 太宰府」をキーに検索します。  
    4. 「OSC2011 Fukuoka 太宰府にて開催！！」の記事へのリンクをクリックします。  
